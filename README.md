@@ -1,2 +1,22 @@
 # Small-project-7
-elbaT
+algorithme elbat
+
+variable 
+  
+  var n : entier
+  var a : entier
+  var b : entier
+ 
+debut
+  
+  afficher ("entrez le premier nombre");
+  lire (a);
+  
+  afficher ("entrez le deuxième nombre");
+  lire (b);
+  
+  n <- a * b
+  
+  afficher (a," fois ",b," est égale à ", n);
+  
+fin
